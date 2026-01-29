@@ -1,7 +1,5 @@
 # Quản Lý Thư Viện
 
-[![CI](https://github.com/XuanHung225/library-management/actions/workflows/ci.yml/badge.svg)](https://github.com/XuanHung225/library-management/actions)
-
 Một hệ thống quản lý thư viện đơn giản (backend + frontend).
 
 ## Tổng quan
@@ -69,3 +67,4 @@ VITE_API_BASE_URL=http://localhost:3000/api
 ---
 
 **Lưu ý:** Badge phía trên thể hiện trạng thái CI của repository này.
+
