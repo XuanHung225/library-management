@@ -1,0 +1,47 @@
+{
+  "name": "library_management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest --runInBand",
+    "hash-passwords": "node scripts/hash_passwords.js",
+    "migrate-db": "node scripts/migrate_db.js",
+    "migrate:run": "node scripts/run_migrations.js",
+    "migrate:status": "node scripts/migrate_status.js",
+    "migrate:status:json": "node scripts/migrate_status.js --json",
+    "migrate:rollback": "node scripts/migrate_rollback.js",
+    "migrate:rollback:dry": "node scripts/migrate_rollback.js --dry"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "bootstrap": "^5.3.8",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
+    "mysql2": "^3.15.3",
+    "nodemailer": "^7.0.12",
+    "react-bootstrap": "^2.10.10",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "latest"
+  },
+  "devDependencies": {
+    "jest": "^29.6.0",
+    "nodemon": "^3.1.11",
+    "supertest": "^6.3.3"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "verbose": true
+  }
+}
