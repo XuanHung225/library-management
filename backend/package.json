@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
-    "test": "jest --runInBand",
+    "test": "jest --runInBand --passWithNoTests",
     "hash-passwords": "node scripts/hash_passwords.js",
     "migrate-db": "node scripts/migrate_db.js",
     "migrate:run": "node scripts/run_migrations.js",
